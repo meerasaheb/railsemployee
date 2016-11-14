@@ -1,0 +1,93 @@
+// Place all the styles related to the employees controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+div {
+&.form,
+  &.field, &.actions {
+     width:60%;
+    margin-left:20%;
+    background:#BDBDBD;
+    text-align:center;
+    margin-bottom: 10px;
+  }
+}
+label {
+    display: inline-block;
+    width:200px;
+    text-align: left;
+}
+th {
+   text-align:center;
+   background-color:#B0BEC5;
+  padding-bottom: 5px;
+}
+td {
+  text-align:center;
+  background-color:#FFFF8D;
+}
+.field_with_errors {
+  display: inline-block;
+    width:200px;
+    text-align: left;
+ 
+ 
+  background-color: red;
+  
+}
+
+#error_explanation {
+
+ width:40%;
+    margin-left:30%;
+    border: 2px solid red;
+  padding: 7px;
+ 
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+table{
+  
+	margin-left:38%;
+}
+.btn btn-success
+{
+	margin-left:30%;
+	float:right;
+}
+.newuser{
+
+	text-align: center;
+
+    margin-left:45%;
+    display: inline-block;
+    
+}
+.editshow{
+text-align: center;
+
+    margin-left:45%;
+    display: inline-block;
+   
+}
+.backnew{
+text-align: center;
+
+    margin-left:45%;
+    display: inline-block;
+
+	
+}
