@@ -1,5 +1,6 @@
 class EmployeesController < ApplicationController
  before_action :set_employee, only: [:show, :edit, :update, :destroy]
+  
   def index
     @employees = Employee.all
   end
@@ -38,7 +39,7 @@ class EmployeesController < ApplicationController
   end
 
   def destroy
-    @employee.destroy
+     @employee.destroy
     respond_to do |format|
       format.html { redirect_to employees_url, notice: 'User was successfully destroyed.' }
       format.json { head :no_content }

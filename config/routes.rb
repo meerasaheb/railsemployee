@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  
   # get 'employees/index'
 
   # get 'employees/new'
@@ -12,8 +14,9 @@ Rails.application.routes.draw do
   # get 'employees/update'
 
   # get 'employees/destroy'
+   root to: "employee#index"
   resources :employees
-  root :to => "employees#index"
+  
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
